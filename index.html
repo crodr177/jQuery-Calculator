@@ -6,18 +6,37 @@
   </head>
   <body>
     <div id="container">
-      <h1>Calculator</h1>
-      <form id="calculator-1">
-        <input placeholder="Enter number" type="text" id="num1">
-        <button id="add">+</button>
-        <button id="subtract">-</button>
-        <button id="multiple">*</button>
-        <button id="divide">/</button>
-        <input placeholder="Enter number" type="text" id="num2">
-        <p>=</p>
-        <p id="answer"></p>
-      </form>
-    </div>
+    <table>
+      <tr>
+        <td><button id="clear">C</button></td>
+        <td colspan="3" id="answer"></td>
+      </tr>
+      <tr>
+        <td><button id="7">7</button></td>
+        <td><button id="8">8</button></td>
+        <td><button id="9">9</button></td>
+        <td><button id="/">/</button></td>
+      </tr>
+      <tr>
+        <td><button id="4">4</button></td>
+        <td><button id="5">5</button></td>
+        <td><button id="6">6</button></td>
+        <td><button id="*">x</button></td>
+      </tr>
+      <tr>
+        <td><button id="1">1</button></td>
+        <td><button id="2">2</button></td>
+        <td><button id="3">3</button></td>
+        <td><button id="-">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="0">0</button></td>
+        <td><button id=".">.</button></td>
+        <td><button id="equals">=</button></td>
+        <td><button id="+">+</button></td>
+      </tr>
+    </table>
+  </div>
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
