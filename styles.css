@@ -7,69 +7,34 @@ html {
 }
 
 #container {
-  width: 700px;
-  height: 250px;
-  border: 3px solid black;
+  margin: 50px;
 }
 
-h1 {
-  margin-left: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+table {
+  background: rgb(155, 209, 144);
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
-}
-
-#calculator-1 {
-  width: 600px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 30px;
-}
-
-#num1, #num2, #answer {
-  height: 40px;
-  width: 120px;
-  padding: 10px;
-  font-size: 14px;
+button {
+  width: 85px;
+  height: 90px;
+  font-size: 30px;
+  background: rgb(91, 170, 77);
   outline: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: lighter;
 }
 
-#num1, #num2 {
-  border: 2px solid rgb(42, 42, 139);
-}
-
-#num1:hover, #num2:hover {
-  background: rgb(194, 194, 224);
-}
-
-input:hover::placeholder {
+#divide, #multiple, #add, #subtract {
+  background: rgb(130, 202, 115);
   color: black;
 }
 
 #answer {
-  border: 2px solid black;
-}
-
-button {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-  font-size: 16px;
-  background: rgb(197, 195, 195);
-  border: 1px solid black;
-  outline: 0;
-}
-
-button:hover {
-  background: rgb(156, 155, 155);
-}
-
-p {
-  font-size: 20px;
+  background: gray;
+  font-size: 30px;
+  background: rgb(91, 170, 77);
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
 }
